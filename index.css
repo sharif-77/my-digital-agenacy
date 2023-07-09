@@ -47,6 +47,9 @@
 }
 
 /* hero section start */
+main{
+  position: relative;
+}
 .hero-section {
   height: 100vh;
   background-image: url("asset/image/background.jpg"),
@@ -64,8 +67,7 @@
   justify-content: space-around;
   align-items: center;
 }
-.hero-div {
-}
+
 .hero-div > h1 {
   font-weight: 900;
   font-size: 62px;
@@ -79,8 +81,7 @@
   padding-top: 10px;
   margin-top: 10px;
   margin-left: 150px;
-  /* width: 100%;
-  margin: auto; */
+ 
 }
 .hero-buttons > button {
   margin-right: 20px;
@@ -177,3 +178,79 @@
 }
 
 /* first-section-item-two end */
+
+
+/* main second section start */
+.main-second-section{
+  height: 170px;
+  width: 80%;
+  /* margin: auto; */
+  position: absolute;
+  top: 670px;
+  left: 150px;
+
+
+}
+.second-section-items{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #f52c2c;
+  padding: 40px;
+  color:white;
+  border-radius: 5px;
+}
+.phone-icon>img{
+  width: 100px;
+
+}
+.second-section-item-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.middel-card-btn{
+  font-size: 15px !important;
+}
+/* main second section end */
+
+/* main third start */
+.main-third-section{
+  text-align: center;
+  padding: 200px 50px;
+}
+.third-description{
+  width: 50%;
+  margin:50px auto;
+}
+.third-description>h1{
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 20px;
+  
+}
+.third-description>h4{
+  font-size: 15px;
+  font-weight: 300;
+  
+}
+.third-cards-wrappers{
+  display: flex;
+  justify-content: space-around;
+}
+.third-card{
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.third-card>h2,p{
+  width: 330px;
+  margin: 30px 10px;
+  color: #3c3b3b;
+  text-align: justify;
+}
+.third-card-image{
+  width: 350px;
+  border-radius: 5px;
+}
